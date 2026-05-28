@@ -11,3 +11,8 @@ d) Acessa (dereferencia) o valor armazenado no endereço de memória para o qual
 Questão 3
 
 c) Para alocar um bloco de memória de um tamanho especificado em bytes e retornar um ponteiro para o início desse bloco.
+
+Questão 4
+
+int num = 5;
+modifica (&num, valor);
