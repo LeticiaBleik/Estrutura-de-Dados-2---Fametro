@@ -1,11 +1,16 @@
 #include <stdio.h>
 
 void copiarString(char *origem, char *destino) {
+
+	// Copia caractere por caractere
 	while (*origem != '\0') {
 		*destino = * origem;
+
+		// Avança nos ponteiros
 		origem ++;
 		destino ++;
 	}
+	// Finaliza a string copiada
 	*destino = '\0';
 
 }
