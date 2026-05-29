@@ -24,7 +24,7 @@
      
      contarVogaisConsoantes (palavra, &vogais, &consoantes);
      
-     printf ("Palavra: %s | Vogais: %d | Consonates: %d", palavra, vogais, consoantes);
+     printf ("Palavra: %s | Vogais: %d | Consoantes: %d", palavra, vogais, consoantes);
      
      return 0;
      
