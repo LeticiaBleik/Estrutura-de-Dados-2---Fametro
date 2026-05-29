@@ -2,14 +2,18 @@
 
 void inversao (char *str) {
 
+	// Ponteiros para início e fim da palavra
 	char * inicio = str;
 	char * fim = str;
 
+	// Vai até o final da string
 	while (*fim != '\0') {
 		fim ++;
 	}
+	// Volta uma posição para a última letra
 	fim --;
 
+	// Troca as letras das extremidades
 	while (inicio<fim) {
 
 		char temporaria = *inicio;
